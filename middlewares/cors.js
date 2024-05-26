@@ -3,7 +3,7 @@
    const allowedCors = [
     "http://localhost:3001",
     "http://localhost:3000",
-    "http://annafrontend.nomoredomainswork.ru/",
+    "http://annafrontend.nomoredomainswork.ru",
 ];
   // Функция, которая принимает объекты req (информация о запросе),
   // res (объект ответа) и функцию next (для запуска следующего миддлвара)
