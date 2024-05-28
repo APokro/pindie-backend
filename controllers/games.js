@@ -13,7 +13,7 @@ const sendAllGames = (req, res) => {
 
   const sendGameUpdated = (req, res) => {
     res.setHeader("Content-Type", "application/json");
-    res.end({ message: "Игра обновлена" });
+    res.end("Game Updated");
   }; 
 
 // Файл controllers/games.js
